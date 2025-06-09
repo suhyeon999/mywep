@@ -1,0 +1,64 @@
+/* 기본 스타일 초기화 및 설정 */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* 컨테이너 공통 스타일 */
+.header__container, main, .footer {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* 헤더 스타일 */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+.header nav a:hover {
+    color: #a4dded;
+}
+
+/* 섹션 공통 스타일 */
+.section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* 프로젝트 카드 스타일 */
+.project-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.project-card h3 {
+    margin-top: 0;
+}
+
+/* 푸터 스타일 */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer a {
+    color: #a4dded;
+}
